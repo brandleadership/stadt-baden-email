@@ -11,6 +11,7 @@ const secondaryColor = css.color('#ff7d00');
 
 const lightColor = css.color('#ffffff');
 const darkColor = css.color('#000000');
+const darkGreyButton =css.color('#4e4e4e');
 
 const lightGrey = css.color('#e6e6e6');
 const darkGrey = css.color('#383e42');
@@ -29,6 +30,7 @@ module.exports = {
   darkColor,
   lightGrey,
   darkGrey,
+  darkGreyButton,
   backgroundLight,
   backgroundMedium,
   backgroundDark,
@@ -77,10 +79,10 @@ module.exports = {
   buttonTextColor: lightColor,
 
   // Elements using buttonBorderColor: CTA button left aligned, CTA button center aligned, CTA button right aligned
-  buttonBorderColor: primaryColor,
+  buttonBorderColor: darkGreyButton,
 
   // Elements using buttonBackgroundColor: CTA button left aligned, CTA button center aligned, CTA button right aligned
-  buttonBackgroundColor: primaryColor,
+  buttonBackgroundColor: darkGreyButton,
 
   /* -------------------------- Link Colors --------------------------- */
 
@@ -254,8 +256,8 @@ module.exports = {
 
   // set the dimension of the header logo. Use either 'logoWidth' OR 'logoHeight', not both
   // Elements using logoWidth and logoHeight: logo
-  // logoWidth: 60,
-  logoHeight: 60,
+   logoWidth: 200,
+  //logoHeight: 60,
 
   // set the orientation of the Logo
   // allowed values: left, right
