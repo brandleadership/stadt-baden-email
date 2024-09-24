@@ -7,7 +7,7 @@ const {css} = require('@bsi-cx/design-build');
 /* ------------------------ Base Colors ------------------------ */
 
 const primaryColor = css.color('#16616d');
-const secondaryColor = css.color('#ff7d00');
+const secondaryColor = css.color('#4e4e4e');
 
 const lightColor = css.color('#ffffff');
 const darkColor = css.color('#000000');

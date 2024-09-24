@@ -14,5 +14,20 @@
 }
 
 .bsi-dm-text-color a {
-  color: #4e4e4e;
+  color: #4e4e4e !important;
+}
+
+.bsi-dm-text-color span > a {
+  color: #4e4e4e !important;
+}
+
+.bsi-dm-text-color span + a {
+  color: #4e4e4e !important;
+}
+
+ a {
+  color: #4e4e4e !important;
+}
+a {
+  color: inherit !important;
 }
