@@ -6,7 +6,7 @@ const {css} = require('@bsi-cx/design-build');
 
 /* ------------------------ Base Colors ------------------------ */
 
-const primaryColor = css.color('#16616d');
+const primaryColor = css.color('#000000');
 const secondaryColor = css.color('#4e4e4e');
 
 const lightColor = css.color('#ffffff');
@@ -256,7 +256,7 @@ module.exports = {
 
   // set the dimension of the header logo. Use either 'logoWidth' OR 'logoHeight', not both
   // Elements using logoWidth and logoHeight: logo
-   logoWidth: 200,
+   logoWidth: 160,
   //logoHeight: 60,
 
   // set the orientation of the Logo
