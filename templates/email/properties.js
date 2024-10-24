@@ -11,7 +11,8 @@ const secondaryColor = css.color('#4e4e4e');
 
 const lightColor = css.color('#ffffff');
 const darkColor = css.color('#000000');
-const darkGreyButton =css.color('#4e4e4e');
+const darkGreyButton =css.color('#27437c');
+const buttonhover = css.color("#00527e");
 
 const lightGrey = css.color('#e6e6e6');
 const darkGrey = css.color('#383e42');
